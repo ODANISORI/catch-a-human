@@ -10,6 +10,10 @@ Design notes, briefs and the dev log live in the Roblox Dev vault (`Ongoing proj
 - Build a place file: `rojo build -o CatchAHuman.rbxl`, then open it in Studio and press Play.
 - Lint: `selene src`.
 
+## Agent skills
+
+`.claude/skills/` holds 23 Roblox reference skills (Luau, security, DataStores, UI, networking, code review and more) from [EL4CTEO/roblox-skills](https://github.com/EL4CTEO/roblox-skills), MIT. Claude Code loads the matching skill when a task needs it. See `.claude/skills/SOURCE.md` for the version and how to update.
+
 ## Layout
 
 | Path | In Roblox | Contents |
