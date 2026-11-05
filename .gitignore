@@ -1,0 +1,22 @@
+# Built place files (Pavlo gets these from the Claude project files)
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+!assets/**/*.rbxm
+
+# Studio lock and backup files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Rojo sourcemap (made by editors)
+sourcemap.json
+
+# Tools and editors
+.rokit/
+roblox.yml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

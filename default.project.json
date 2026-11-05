@@ -1,0 +1,67 @@
+{
+  "name": "CatchAHuman",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "DataChanged": { "$className": "RemoteEvent" },
+        "GetData": { "$className": "RemoteFunction" },
+        "CastRequest": { "$className": "RemoteFunction" },
+        "CancelCast": { "$className": "RemoteEvent" },
+        "HookRequest": { "$className": "RemoteEvent" },
+        "ReelInput": { "$className": "RemoteEvent" },
+        "FishingState": { "$className": "RemoteEvent" },
+        "CatchResult": { "$className": "RemoteEvent" },
+        "FeedResult": { "$className": "RemoteEvent" },
+        "ShopRequest": { "$className": "RemoteFunction" }
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "StreamingEnabled": true
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Technology": "ShadowMap",
+        "ClockTime": 13.5,
+        "Brightness": 2.5,
+        "Ambient": [0.45, 0.45, 0.5],
+        "OutdoorAmbient": [0.55, 0.55, 0.6],
+        "GlobalShadows": true
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.25,
+          "Offset": 0,
+          "Color": [0.75, 0.88, 1],
+          "Decay": [0.55, 0.75, 0.95],
+          "Glare": 0.2,
+          "Haze": 0.6
+        }
+      }
+    }
+  }
+}
